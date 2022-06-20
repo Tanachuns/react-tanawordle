@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.navbar{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    margin: auto;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.navbar *{
+    display: inline;
+    margin: 0.5em 0;
+}
+
+.navbar img{
+    width: 120px;
+}
+
+.from{
+    
+    margin-top: 1em;
+}
+
+.textbox{
+    margin: 1em;
+    width: 230px;
+    height: 35px;
+    left: 36px;
+    top: 101px;
+
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+.btn{
+    width: 477px;
+    height: 40px;
+    left: 36px;
+    top: 151px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: linear-gradient(50deg,  #A818DA 100%,#711F8D 1.14%);
+    
+}
+
+.meme img{
+    max-width: 500px;
+    margin: 3em;
+
+}
