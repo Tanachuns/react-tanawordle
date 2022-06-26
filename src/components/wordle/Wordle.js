@@ -12,6 +12,7 @@ export default function Wordle(){
     var [alphabets,setAlphabets] = React.useState([[],[],[],[],[],[]])
     var [row,setRow] = React.useState(0)
     function handleKey(event){
+        console.log(pointer)
         const keyValue = event.target.value
         if(keyValue==="<"){
             setAlphabets(prevArray=>{
