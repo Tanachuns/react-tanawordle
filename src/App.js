@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Meme from "./components/Meme";
+import Wordle from "./components/wordle/Wordle";
+
 
 
 export default function App(){
+    
     const app = (
         <div className="app">
-            <Navbar />
-            <Meme />
+            <Wordle />
         </div>
     )
     return app
