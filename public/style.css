@@ -42,8 +42,8 @@ body{
     margin: 0.1em;
     background-color: gray;
     border: 0;
-    min-width: 43px;
-    min-height: 58px;
+    width: 43px;
+    height: 58px;
     border-radius: 10px;
     color: white;
     font-size: 20px;
@@ -51,6 +51,12 @@ body{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
 }
 
 .key-enter{
