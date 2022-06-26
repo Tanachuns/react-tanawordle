@@ -28,7 +28,7 @@ export default function Result(props){
     else if (props.result==="letter"){
         resultText = (
             <div>
-                <h1>Not Enought Letters</h1>
+                <h1>Not Enough Letters</h1>
                 <button className="btn" onClick={props.handleClick}>OK</button>
             </div>
         )

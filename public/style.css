@@ -55,6 +55,8 @@ body{
     text-transform: uppercase;
 }
 
+
+
 .key-enter{
     background-color: gray;
     border: 0;
@@ -68,6 +70,12 @@ body{
     align-items: center;
     text-transform: uppercase;
 }
+
+input[type="button"]:disabled {
+    background: #dddddd;
+    color: #000;
+  }
+
 .r{
     display: flex;
     position: absolute;
@@ -107,6 +115,7 @@ body{
     border: 2px solid white;
     color: white;
 }
+
 
 @media only screen and (max-width: 600px) {
     .key{
