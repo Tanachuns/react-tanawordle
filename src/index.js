@@ -1,6 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import Wordle from "./components/wordle/Wordle";
 
-ReactDOM.render(<App />,document.getElementById('root'));
+function Index(){
+    
+    const index = (
+        <div className="index">
+            <Wordle />
+        </div>
+    )
+    return index
+}
+ReactDOM.render(<Index />,document.getElementById('root'));
 

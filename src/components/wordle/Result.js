@@ -9,7 +9,7 @@ export default function Result(props){
                 <h1>{props.result}</h1>
                 
                 <h2>My name is Tanarak Nice to meet you :D</h2>
-                <button className="btn">About Me</button>
+                <button className="btn" onClick={props.handleClick}>OK</button>
             </div>
         )
     }
@@ -20,7 +20,8 @@ export default function Result(props){
                 <h1>{props.result}</h1>
                 <h3>But</h3>
                 <h2>My name is Tanarak Nice to meet you :D</h2>
-                <button className="btn">About Me</button>
+                <button className="btn" onClick={props.handleClick}>OK</button>
+                
             </div>
         )
     }
