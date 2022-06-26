@@ -4,6 +4,9 @@ body{
     font-family: "Inter";
 }
 
+
+
+
 .w-contrainer{
     display: inline-block;
     text-align: center;
@@ -37,7 +40,6 @@ body{
     bottom: 0;
     width: 100%;
 }
-
 .key{
     margin: 0.1em;
     background-color: gray;
@@ -51,12 +53,6 @@ body{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-}
-
-@media (max-width: 480px) {
-    body {
-        background-color: red;
-    }
 }
 
 .key-enter{
@@ -110,4 +106,18 @@ body{
     background-color: black;
     border: 2px solid white;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .key{
+        width: 40px;
+        height: 50px;
+    }
+    .key-enter{
+        width: 80px;
+        height: 50px;
+    }
+    .k-contrainer{
+        margin-bottom: 1em;
+    }
 }
