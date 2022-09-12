@@ -71,6 +71,10 @@ export default function Wordle(){
     function handleClick(){
         setResult()
     }
+    
+    function handleFinishedClick(){
+        window.location.reload(false);
+    }
 
     
     return (
@@ -131,7 +135,7 @@ export default function Wordle(){
                 <Box alphabet={alphabets[5][6]} background={background[5][6]}/>
             </div>
             <Keyboard keyPressed={handleKey}/>
-            {result&&<Result result={result} handleClick={handleClick}/>}
+            {result&&<Result result={result} handleClick={handleClick} handleFinishedClick={handleFinishedClick}/>}
         </div>
         )
 }
