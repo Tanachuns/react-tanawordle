@@ -10,6 +10,8 @@ export default function Result(props){
                 
                 <h2>My name is Tanarak Nice to meet you :D</h2>
                 <button className="btn" onClick={props.handleFinishedClick}>OK</button>
+                <br/><br/>
+                <a href="https://twitter.com/intent/tweet?text=Nice%20to%20meet%20you%20too%20@tanachuns.%0A(From%20https://tanarak.netlify.app/)" class="tweet" data-show-count="false">Tweet</a>
             </div>
         )
     }
@@ -21,6 +23,8 @@ export default function Result(props){
                 <h3>But</h3>
                 <h2>My name is Tanarak Nice to meet you :D</h2>
                 <button className="btn" onClick={props.handleFinishedClick}>OK</button>
+                <br/><br/>
+                <a href="https://twitter.com/intent/tweet?text=Nice%20to%20meet%20you%20too%20@tanachuns.%0A(From%20https://tanarak.netlify.app/)" class="tweet" data-show-count="false">Tweet</a>
                 
             </div>
         )

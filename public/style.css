@@ -130,3 +130,20 @@ input[type="button"]:disabled {
         margin-bottom: 1em;
     }
 }
+
+.tweet{
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 4px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    background-image: url("https://www.petefreitag.com/images/twitter.png");
+    background-repeat: no-repeat;
+    background-size: 16px 13px;
+    background-position: 8px 10px;
+
+}
