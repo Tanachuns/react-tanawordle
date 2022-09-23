@@ -12,6 +12,7 @@ export default function Keyboard(props){
                     <input className="key" type="button" value="T" onClick={props.keyPressed}/>
                     <input className="key" type="button" value="Y" onClick={props.keyPressed}/>
                     <input className="key" type="button" value="I" onClick={props.keyPressed}/>
+                    <input className="key" type="button" value="U" onClick={props.keyPressed}/>
                     <input className="key" type="button" value="O" onClick={props.keyPressed}/>
                     <input className="key" type="button" value="P" onClick={props.keyPressed}/>
                 </div>
